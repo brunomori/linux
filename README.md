@@ -145,17 +145,3 @@ REDE:     ping / curl / ss -lntp
 PROCESSO: ps / top / kill
 PERMISSÃO: chmod / chown
 ```
-
----
-
-## 🚀 Próximos passos (quando dominar isso)
-
-* Criar unidade systemd para rodar script como serviço
-* Logrotate para gerenciar logs
-* Hardening básico (ssh, firewall, fail2ban)
-* SRE raiz → monitoração, observabilidade e automação
-
----
-
-📌 **Pronto para subir no GitHub!**
-Se quiser, te ajudo a adicionar README, licensa e organizar.
