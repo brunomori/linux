@@ -29,51 +29,41 @@
 
 ✏ **Editores**
 ✏ Editores (Vim e Nano)
-Vim
+### Vim (avançado)
+```
+vim arquivo.txt         # abrir arquivo
 
-Abrir arquivo:
+# Modos
+i                       # inserir texto
+ESC                     # voltar para comando
 
-vim nome_do_arquivo
+# Comandos (após ESC)
+:w                      # salvar
+:q                      # sair
+:wq                     # salvar e sair
+:q!                     # sair sem salvar
+u                       # desfazer
+/palavra                # buscar (n = próxima)
 
+# Edição prática
+dd                      # apaga linha
+yy                      # copia linha
+p                       # cola linha
+```
 
-Modos do Vim
+### Nano (simples)
+```
+nano arquivo.txt        # abrir arquivo
 
-i → entrar no modo de edição (inserir texto)
+# Atalhos
+Ctrl + O                # salvar
+Ctrl + X                # sair
+Ctrl + K                # recortar linha
+Ctrl + U                # colar
+Ctrl + W                # procurar
+```
 
-ESC → sair do modo edição e voltar para comandos
-
-Comandos úteis (após ESC)
-
-:w → salvar
-
-:q → sair
-
-:wq → salvar e sair
-
-:q! → sair sem salvar
-
-u → desfazer (undo)
-
-/palavra → procurar palavra no arquivo (pressione n para próxima ocorrência)
-
-Nano (mais simples)
-
-Abrir arquivo:
-
-nano nome_do_arquivo
-
-
-Atalhos úteis
-
-Ctrl + O → salvar
-
-Ctrl + X → sair
-
-Ctrl + K → recortar linha
-
-Ctrl + U → colar linha
-
-Ctrl + W → pesquisar no arquivo
+---
 
 🔐 **Permissões básicas**
 
