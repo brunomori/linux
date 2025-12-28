@@ -28,14 +28,52 @@
 * `cp *.log logs/` → copia todos os arquivos que terminam com **.log**
 
 ✏ **Editores**
+✏ Editores (Vim e Nano)
+Vim
 
-* `vim arquivo`
+Abrir arquivo:
 
-  * ESC → sair do modo de edição
-  * `:w` → salvar
-  * `:q` → sair
-  * `:wq` → salvar e sair
-* `nano arquivo` → editor simples
+vim nome_do_arquivo
+
+
+Modos do Vim
+
+i → entrar no modo de edição (inserir texto)
+
+ESC → sair do modo edição e voltar para comandos
+
+Comandos úteis (após ESC)
+
+:w → salvar
+
+:q → sair
+
+:wq → salvar e sair
+
+:q! → sair sem salvar
+
+u → desfazer (undo)
+
+/palavra → procurar palavra no arquivo (pressione n para próxima ocorrência)
+
+Nano (mais simples)
+
+Abrir arquivo:
+
+nano nome_do_arquivo
+
+
+Atalhos úteis
+
+Ctrl + O → salvar
+
+Ctrl + X → sair
+
+Ctrl + K → recortar linha
+
+Ctrl + U → colar linha
+
+Ctrl + W → pesquisar no arquivo
 
 🔐 **Permissões básicas**
 
