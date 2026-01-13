@@ -12,6 +12,13 @@
 * `mkdir nome` → cria pasta
 * `mkdir -p caminho/{a,b,c}` → cria várias pastas ao mesmo tempo
 
+📄 **Update**
+* `apt update` → update principal linux 
+* `apt list` → lista de updates
+* `apt install nano` →  instalar nano (editor de texto)
+* `apt remove nano` → desistalar nano
+
+
 📄 **Arquivos**
 
 * `touch arquivo.txt` → cria arquivo vazio
@@ -19,7 +26,9 @@
 * `cp origem destino` → copia **arquivo/pasta**
 * `mv origem destino` → move/renomeia
 * `cat / less / head / tail` → ler arquivos
-* `cat Arquivo_1.txt > Arquivo_2.txt ` → Faz copia do conteudo de um arquio para outro
+* `cat Arquivo_1.txt > Arquivo_2.txt ` → Faz copia do conteudo de um arquio para outro  * `cat Arquivo_1.txt  Arquivo_2.txt > Arquivo_3.txt ` → Faz copia do conteudo dos arquivos para um novo arquivo.
+* `echo hi docker > docket.txt` → Escreve dentro do arquivo "hi docker"
+
 
 🔑 **Copiar (detalhes importantes)**
 
@@ -96,12 +105,6 @@ Ctrl + W                # procurar
 * `curl http://localhost:8080` → testar endpoint
 * `ss -lntp` → portas abertas e serviços
 
-📝 **Logs**
-
-* `less /var/log/syslog`
-* `journalctl -u nome.service` → logs do serviço
-* `grep ERRO app.log` → filtrar erros
-* `tail -f app.log` → acompanhar ao vivo
 
 ⚙️ **Scripts básicos**
 Arquivo: `start.sh`
@@ -157,7 +160,8 @@ Ver logs e filtrar:
 
 ```
 tail -f ~/APPS/webapp/logs/app.log
-grep ERROR ~/APPS/webapp/logs/app.log
+grep ERROR ~/APPS/webapp/logs/app.log (Procurar palavra ERROR dentro de app.log)
+grep ERROR ~/APPS/webapp/logs/app1.log app2.log (Procurar palavra ERROR dentro de app1.log e app2.log)
 ```
 
 ---
