@@ -28,6 +28,9 @@
 * `cat / less / head / tail` → ler arquivos
 * `cat Arquivo_1.txt > Arquivo_2.txt ` → Faz copia do conteudo de um arquio para outro  * `cat Arquivo_1.txt  Arquivo_2.txt > Arquivo_3.txt ` → Faz copia do conteudo dos arquivos para um novo arquivo.
 * `echo hi docker > docket.txt` → Escreve dentro do arquivo "hi docker"
+* `find etc/kernal` →  vai listar todas pastas e arquivos com os nomes etc/kernal
+* `find -type f -name "docker.txt" ` →  vai listar todos os files com nome "docker.txt" dentro do diretorio (Variação: find -type f -name "docke*.txt" => listar todos os files com inicio docke*)
+* `find -type d -name "pasta_docker" ` →  vai listar todos os diretorios com o nome
 
 
 🔑 **Copiar (detalhes importantes)**
@@ -162,6 +165,8 @@ Ver logs e filtrar:
 tail -f ~/APPS/webapp/logs/app.log
 grep ERROR ~/APPS/webapp/logs/app.log (Procurar palavra ERROR dentro de app.log)
 grep ERROR ~/APPS/webapp/logs/app1.log app2.log (Procurar palavra ERROR dentro de app1.log e app2.log)
+grep ERROR app* (Procurar palavra ERROR dentro de qualquer arquivo que tenha app*> exemplo:app1 app2 app3)
+grep -i -r ERROR . (Procurar em tudo a palavra erro no diretorio atual)
 ```
 
 ---
