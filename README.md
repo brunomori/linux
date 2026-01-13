@@ -19,6 +19,7 @@
 * `cp origem destino` → copia **arquivo/pasta**
 * `mv origem destino` → move/renomeia
 * `cat / less / head / tail` → ler arquivos
+* `cat Arquivo_1.txt > Arquivo_2.txt ` → Faz copia do conteudo de um arquio para outro
 
 🔑 **Copiar (detalhes importantes)**
 
