@@ -153,12 +153,30 @@ chmod +x start.sh
 * `id usuario ` (ver UID, GID e grupos)
 * `whoami`  (mostrar usuário atual)
 
-👥 **Grupos**
 
-* `groupadd grupo` (criar grupo)
-* `groups usuario`  (ver grupos do usuário)
-* `usermod -aG grupo usuario`(adicionar usuário ao grupo)
-* `gpasswd -d usuario grupo`  (remover usuário do grupo)
+👥 Criação e gerenciamento de grupos
+
+groupadd grupo (criar grupo novo)
+groupdel grupo (remover grupo)
+groupmod -n novo_nome grupo (renomear grupo)
+groupmod -g GID grupo (alterar o GID do grupo)
+groups usuario (ver grupos do usuário)
+usermod -aG grupo usuario (adicionar usuário ao grupo)
+gpasswd -d usuario grupo (remover usuário do grupo)
+
+🔐 Permissões ligadas a grupos
+
+chgrp grupo arquivo (mudar grupo dono do arquivo)
+chmod 640 arquivo (dono: leitura/escrita, grupo: leitura, outros: sem acesso)
+chmod 770 arquivo (dono e grupo: leitura/escrita/execução, outros: sem acesso)
+ls -l (ver dono e grupo de cada arquivo)
+
+📂 Exemplo prático
+
+groupadd devops (criar grupo devops)
+usermod -aG devops bruno (adicionar usuário ao grupo)
+chgrp devops /projetos (mudar grupo dono do diretório)
+chmod 770 /projetos (dar acesso total ao dono e grupo)
 
 🌍 **Variáveis de ambiente**
 
