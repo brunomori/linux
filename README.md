@@ -169,7 +169,8 @@ chmod +x start.sh
 * `cat /etc/group` (ver grupos exisitente)
 
 🔐 **Permissões ligadas a grupos**
-[Tipo][Dono][Grupo][Outros]
+ls -la
+[Tipo][Dono][Grupo][Outros] 
 
 * `chgrp grupo arquivo` (mudar grupo dono do arquivo)
 * `chmod 640 arquivo` (dono: leitura/escrita, grupo: leitura, outros: sem acesso)
