@@ -11,6 +11,8 @@
 * `cd /` → vai para raiz do sistema
 * `mkdir nome` → cria pasta
 * `mkdir -p caminho/{a,b,c}` → cria várias pastas ao mesmo tempo
+* `mkdir teste1 && cd teste1 && echo ok` → mkdir teste1 → cria um diretório chamado teste1. & → separa comandos caso de erro ele para, executando-os em sequência. cd teste1 → entra no diretório recém-criado. echo ok → imprime a palavra ok na tela.
+
 
 📄 **Update**
 * `apt update` → update principal linux 
@@ -88,7 +90,7 @@ Ctrl + W                # procurar
 🟡 Conteúdo 2 — Linux Intermediário (Trabalho Real)
 📊 **Processos**
 
-* `ps aux` → lista processos
+* `ps` → lista processos numerando com PID
 * `top` → monitor em tempo real (q para sair)
 * `htop` → versão melhor (se instalado)
 * `kill PID` → encerra um processo
@@ -143,6 +145,20 @@ chmod +x start.sh
 * `chmod 640 arquivo` (r/w para dono, r para grupo)
 * `groups usuario` (ver grupos)
 * `usermod -aG grupo usuario` (adicionar grupo)
+
+👤 **Usuários básicos**
+
+* `adduser usuario` (criar usuário interativo)
+* `passwd usuario` (definir senha)
+* `id usuario ` (ver UID, GID e grupos)
+* `whoami`  (mostrar usuário atual)
+
+👥 **Grupos**
+
+* `groupadd grupo` (criar grupo)
+* `groups usuario`  (ver grupos do usuário)
+* `usermod -aG grupo usuario`(adicionar usuário ao grupo)
+* `gpasswd -d usuario grupo`  (remover usuário do grupo)
 
 🌍 **Variáveis de ambiente**
 
