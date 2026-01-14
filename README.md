@@ -148,6 +148,7 @@ chmod +x start.sh
 
 👤 **Usuários básicos**
 
+* `docker exec -it -u bruno c43da21ea07a7 bash` (docker exec (executa comando dentro de um container em execução) → -it (interativo + terminal) → -u bruno (define usuário dentro do container) → c43da21ea07a7 (ID ou nome do container) → bash (abre shell Bash).)
 * `useradd -m usuario` (criar usuário interativo)
 * `usermod  usuario` (modificar usuario)
 * `userdell  usuario` (deletar usuario)
@@ -165,6 +166,7 @@ chmod +x start.sh
 * `groups usuario` (ver grupos do usuário)
 * `usermod -aG grupo usuario` (adicionar usuário ao grupo)
 * `gpasswd -d usuario grupo` (remover usuário do grupo)
+* `cat /etc/group` (ver grupos exisitente)
 
 🔐 **Permissões ligadas a grupos**
 
