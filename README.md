@@ -148,7 +148,9 @@ chmod +x start.sh
 
 👤 **Usuários básicos**
 
-* `adduser usuario` (criar usuário interativo)
+* `useradd -m usuario` (criar usuário interativo)
+* `usermod  usuario` (modificar usuario)
+* `userdell  usuario` (deletar usuario)
 * `passwd usuario` (definir senha)
 * `id usuario ` (ver UID, GID e grupos)
 * `whoami`  (mostrar usuário atual)
