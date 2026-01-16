@@ -171,8 +171,8 @@ chmod +x start.sh
 🔐 **Permissões ligadas a grupos**
 ls -la
 [Tipo][Dono][Grupo][Outros] 
-
-* `chgrp grupo arquivo` (mudar grupo dono do arquivo)
+* `chmod u+x docker.txt` (adicionar u (usuário) + x (permissão de executar) ao arquivo)
+* `chgrp grupo arquivo` (mudar grupo dono do arquivo)  
 * `chmod 640 arquivo` (dono: leitura/escrita, grupo: leitura, outros: sem acesso)
 * `chmod 770 arquivo` (dono e grupo: leitura/escrita/execução, outros: sem acesso)
 * `ls -l` (ver dono e grupo de cada arquivo)
