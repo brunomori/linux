@@ -1,5 +1,5 @@
 📘 Guia Linux para SRE
-(Em construção — conteúdo será organizado em seções focadas na prática diária de um SRE)
+
 
 🟢 Conteúdo 1 — Linux Básico (Sobrevivência)
 📁 **Navegação no sistema**
