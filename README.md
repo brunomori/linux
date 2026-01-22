@@ -1,5 +1,27 @@
 📘 Guia Linux para SRE
 
+## 📌 Índice
+Linux Básico
+Update
+Arquivos
+Copiar
+Editores
+Permissões
+
+Linux Intermediário
+Processos
+Serviços
+Rede
+Scripts
+
+Linux para SRE
+Troubleshooting
+Permissões avançadas
+Usuários
+Grupos
+Variáveis de ambiente
+Logs
+---
 
 🟢 Conteúdo 1 — Linux Básico (Sobrevivência)
 📁 **Navegação no sistema**
